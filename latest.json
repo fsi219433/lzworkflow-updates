@@ -1,7 +1,7 @@
 {
-  "version": "LZ-W3.6-20261019",
-  "note": "安全修复：清除包内残留真实数据 + 停用云端上报(改本机留档) + 修复清理漏删reports",
-  "size": 1047707,
-  "sha256": "ada73d0d6330ee79fea59291a69baa5aee04519d76aef0bcb4ad3c596a9495a9",
-  "sig": "1927886b239a9dbec74d45c4f3296837fd4245dc6960c3ce8ac79b2a0b0da2c1"
+  "version": "LZ-W3.7-20261019",
+  "note": "修复：重点数据/月报目录按钮打不开（后端漏映射2个）",
+  "size": 1048071,
+  "sha256": "76034a8a1a73d61a089d9a82ac3ef11d4d590cde089b330b3ddf28692a303099",
+  "sig": "6836155e1d2773e9d88fd544531bbb547a5e30e9edb7e4dc205dc16db9b8be24"
 }
