@@ -1,7 +1,7 @@
 {
   "version": "LZ-W3.9-20261020",
   "note": "月报链：同步黄金母版防自传染闸门+月份容错；补彩票收币单独任务；源码保护失败改为拒绝打包",
-  "size": 1066477,
-  "sha256": "ac19914ef416c8aa34a2aa1a9546be4e7e1da9e1b9f5b2010db8c553d721943d",
-  "sig": "3fa62ef32b73cc116b52bce9ddf3e1d32f75a7886ba95c97f8cb0c4a29155fa5"
+  "size": 1066466,
+  "sha256": "695297ccba62d00ec3906aecd59244ca87dc4fdb29c7e87dbf8e9101b2de1907",
+  "sig": "f0fadebc281302617ed9fce5469090841b7ac8b72dcaada1e2f9ef5640583350"
 }
