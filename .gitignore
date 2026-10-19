@@ -1,0 +1,27 @@
+# 🔴 本仓库是**公开**的更新通道，任何真实经营数据都不允许进入。
+# 2026-10-19 事故：reporter.py 曾把各店真实营收 push 到这里，
+# 任何人拿到 URL 就能下载 → 已停用数据回流，并在此**硬性拦截**。
+
+# 本机经营数据 / 诊断日志（reporter 落盘目录）
+reports/
+logs/
+.report_work/
+
+# 任何 .json 都不许进（只放行签名清单）
+*.json
+!latest.json
+
+# 其它杂物
+__MACOSX/
+.DS_Store
+
+# 🔴 2026-10-19：`publish_cloud.py` 用 `git add -A`，
+#   曾把 `/.git.OLD-*`（旧仓库完整历史，含全部脏包）一并推上公开仓库！
+#   这里 + 下面的 publish 侧改动双重拦截。
+.git.OLD*
+.git.*
+*.OLD*
+quarantine*/
+backup*/
+*.tar.gz
+*.zip.bak-*

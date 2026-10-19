@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>林舟工作流 · 更新源</title>
+<style>
+  body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#0f1420;color:#e8eefc;
+       display:flex;align-items:center;justify-content:center;min-height:100vh;margin:0}
+  .box{background:#172033;border:1px solid #28324a;border-radius:16px;padding:40px 48px;text-align:center;max-width:560px}
+  h1{font-size:22px;margin:0 0 8px} .sub{color:#93a1bd;font-size:13px;margin-bottom:24px}
+  code{background:#1d2942;padding:10px 16px;border-radius:8px;display:block;margin:12px 0;font-size:13px;color:#7fb3ff;word-break:break-all}
+  .ok{color:#2fbf71;font-size:13px;margin-top:16px}
+</style>
+</head>
+<body>
+<div class="box">
+  <h1>林舟工作流 · 更新源</h1>
+  <div class="sub">本页为程序自动更新服务，无需人工访问</div>
+  <div>更新源地址（填入软件「检查更新」窗口）：</div>
+  <code id="src">加载中…</code>
+  <div class="ok">✓ 服务正常</div>
+</div>
+<script>document.getElementById('src').textContent = location.origin + '/';</script>
+</body>
+</html>
