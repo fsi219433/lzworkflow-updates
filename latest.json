@@ -1,7 +1,7 @@
 {
-  "version": "LZ-W4.6-20261020",
-  "note": "混淆器误伤修复+自检闸门 / 机器码跨版本稳定 / 升级不丢数据 / 主密钥碎片化 / 同事反馈全套(弹窗滚动/店名表名去硬编码/自动建表/芸苔token)",
-  "size": 2201679,
-  "sha256": "fd492f1e48eabbc03bbe61d4dd76ed9e748366e799da93cff909924c352a3594",
-  "sig": "9de2884d957fa86c5614bd36f526e29dff06cac8a551e85c2021b3bba4cb932f"
+  "version": "LZ-W4.7-20261021",
+  "note": "月报链新增单日零值闸门(BQ-1): 已过营业日 totalMoney=0 一律判红不落盘(历史9份交付件零值0次实证); 新增 --allow-zero 显式放行闭店日; 回归脚本补第5组语义判据用例+修正Mac版隔离缺陷",
+  "size": 2203017,
+  "sha256": "342c4f4266ebf0c54a85340d5a110e50e0dc6e02b9e20a82c690924f4affd167",
+  "sig": "e762c6f93acf48d25d51edf1ae8ae0c3bb0241cfe896bfc5cc569b1a651cf197"
 }
