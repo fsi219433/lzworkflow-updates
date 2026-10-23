@@ -1,7 +1,7 @@
 {
-  "version": "LZ-W4.9-20261023",
-  "note": "修解锁后跑不了脚本: 鲸舰密码被purge清空但解锁未恢复->解锁同时恢复(本机为空才补); site_config空值不再覆盖有效密码; 缓存刷新; 登录失败给可操作指引不再静默退出码1",
-  "size": 2210951,
-  "sha256": "b31aec689e20fe0eb9dc6092227867fe010de994e0f2273d38d18fe58380bd6c",
-  "sig": "f1d2f9a8e0d3d72999bcf79397fcd3f40f3a968aeb30f5b01b7a6362c65855ea"
+  "version": "LZ-W5.0-20261023",
+  "note": "修币值报错(脚本只加lib未加bin, import key_data_fetch失败->币值自动算挂) / 修Excel占用崩溃(改safe_save: 重试+人话提示+退出码2无traceback) / 修合计浮点尾差 / 全脚本sys.path统一加固",
+  "size": 2214786,
+  "sha256": "de8d73ecf01022d1c1a9d26bbe4d4d3c096cf7da70f8d04d1b1fdff2896cc2cc",
+  "sig": "1d1ff35805d23b0b37a098a4dd3651349eae9e0401e50e8f9d2a189f593b44cb"
 }
