@@ -1,7 +1,7 @@
 {
-  "version": "LZ-W5.8-20261101",
-  "note": "彻底清除所有 .bat 的中文（启动/一键脚本共6个），并在打包时强制校验：任何 bat 含非ASCII直接中止打包",
-  "size": 2235187,
-  "sha256": "8835bec291e7c33686b4d77a1ae0ae45f083ad6e888d177246249ad58d2ad25d",
-  "sig": "05fc52686f8ef14148df928c27a778eb87f9ff6bf28c4be4cc977f053fabca19"
+  "version": "LZ-W5.9-20261101",
+  "note": "新增：启动后自动补齐业绩汇总表缺失日期（实测补跑3天全部成功且数值与Mac一致），不用人天天点；另加打包闸门：src混入真实数据或凭证时拒绝打包",
+  "size": 2174838,
+  "sha256": "dba934fb3cbda37dcb4e300090d0835e0d74ab85f257ef5d699f788f03263622",
+  "sig": "f402e056aacbda3cabb9c4c35dd6085a2b7597cc62b8190c2f32c10d2b53df38"
 }
