@@ -1,7 +1,7 @@
 {
   "version": "LZ-W5.5-20261101",
   "note": "启动自检改用 netstat（不依赖 PowerShell，避免组策略禁用与 % 转义歧义）",
-  "size": 2236323,
-  "sha256": "bf4c5138b6b77c7fa297d561804a425fa740db1c8a4d7e3c96e7f63daba1f2f1",
-  "sig": "18f758b68289511576310360d7b41e91050e8e67e0c605a74570e0607b73f733"
+  "size": 2236316,
+  "sha256": "ac5e18b3439d1b11b8294e5fa778db50a71845fcfc847f0e04edd81c5f93d001",
+  "sig": "59594e08cf7bc473d993a84b999c255e76582ccc79f70c431590ec295dfaa2e4"
 }
