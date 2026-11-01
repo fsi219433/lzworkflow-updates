@@ -1,7 +1,7 @@
 {
-  "version": "LZ-W5.6-20261101",
-  "note": "安装包数据保护：根目录6张数据表改为不存在才装；覆盖安装不冲掉真实账目",
-  "size": 2236422,
-  "sha256": "f18e38918acba2d740833152844de24988c8b994a00822f1d27a437819a0f969",
-  "sig": "eefab42a98104fb8b44d5689cd466dcf5eaedf8fdb9e9e6cd41e961dfb5b7b97"
+  "version": "LZ-W5.7-20261101",
+  "note": "修复致命bug：启动.bat含中文注释，GBK下cmd把注释当命令执行，导致双击报一堆错误打不开。两个bat改为纯ASCII（仅保留必需的启动.bat文件名）",
+  "size": 2235685,
+  "sha256": "9c0db1ce9115ee96959efadf69a7741f0345c145a6033159e1b65193c1b4f4ca",
+  "sig": "5bd672f2e1ddad56ced502e9ec2f802b74737b525fc7fd9e6eaf22d97b39cff5"
 }
