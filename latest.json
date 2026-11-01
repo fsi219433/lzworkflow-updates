@@ -1,7 +1,7 @@
 {
-  "version": "LZ-W5.7-20261101",
-  "note": "修复致命bug：启动.bat含中文注释，GBK下cmd把注释当命令执行，导致双击报一堆错误打不开。两个bat改为纯ASCII（仅保留必需的启动.bat文件名）",
-  "size": 2235685,
-  "sha256": "9c0db1ce9115ee96959efadf69a7741f0345c145a6033159e1b65193c1b4f4ca",
-  "sig": "5bd672f2e1ddad56ced502e9ec2f802b74737b525fc7fd9e6eaf22d97b39cff5"
+  "version": "LZ-W5.8-20261101",
+  "note": "彻底清除所有 .bat 的中文（启动/一键脚本共6个），并在打包时强制校验：任何 bat 含非ASCII直接中止打包",
+  "size": 2235187,
+  "sha256": "8835bec291e7c33686b4d77a1ae0ae45f083ad6e888d177246249ad58d2ad25d",
+  "sig": "05fc52686f8ef14148df928c27a778eb87f9ff6bf28c4be4cc977f053fabca19"
 }
